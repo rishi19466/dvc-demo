@@ -1,9 +1,8 @@
 ## read params
 ## process
 ## return dataframe
+from distutils.log import debug
 import os
-import yaml
-import pandas as pd
 import argparse
 
 def read_params(config_path):
